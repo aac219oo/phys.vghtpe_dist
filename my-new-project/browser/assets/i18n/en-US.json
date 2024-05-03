@@ -1,0 +1,39 @@
+{
+  "menu_items": {
+    "news":"News",
+    "about": "About us",
+    "items": "Examinations items",
+    "reserve" : "Online Reservation",
+    "faq" : "FAQ",
+    "diet" : "Pre-examination Diet",
+    "contect":"Contact us",
+    "employee":"Employee Questionnaire",
+    "tel": "assets/images/tel-en.png",
+    "tel_text":"Due to busy phone lines, we suggest contacting us through this number."
+  },
+  "menu_items_children": {
+    "info":"Our feature",
+    "team": "Our team",
+    "line":"LINE",
+    "counter_apointment":"apointment",
+    "survey_pb":"SURVEY_PB",
+    "survey_dust":"SURVEY_DUST",
+    "survey_hoco":"SURVEY_HOCO",
+    "survey_radiation":"SURVEY_RADIATION",
+    "survey_night":"SURVEY_NIGHT",
+    "survey_tired":"SURVEY_TIRED"
+  },
+  "footer": {
+    "address": "No.201,Shipai Road Sec 2, Taipei,112,Taiwan",
+    "tel_tip1": "(One-day, Two-day Check-up)",
+    "tel_tip2": "(Joint Medical Examination)",
+    "tel_text": "Due to high call volumes, please use the 'Contact Us' section wisely",
+    "introduction": "Introduction of Check-up Items and Prices",
+    "online_reserve": "Online Reservation",
+    "service_line": "Health Check-up Reservation Service Line.",
+    "contact_us": "Contact Us",
+    "visits": "Visits",
+    "views": "Page Views Today",
+    "copyright": "All content on this website is owned by Taipei Veterans General Hospital. Please respect intellectual property rights. Unauthorized reproduction, copying, or commercial use is prohibited. Internet service providers are prohibited from transcribing the content of this website without permission."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "首頁－主輪播區": "是否顯示標題、是否自動播放、自動播放時間（毫秒）",
+  "mainCarousel_showCaption": false,
+  "mainCarousel_autoPlay": true,
+  "mainCarousel_time": 5000,
+
+  "首頁－最新消息區": "設定最新消息最大顯示數量",
+  "mainNews": "4",
+
+  "首頁結束": "******",
+
+  "最新消息每頁筆數": "*********",
+  "columnsPerPage": 4,
+
+  "登入後儲存本地端天數": "********",
+  "localExpiredDays": 1,
+
+  "購物車內容儲存本地端天數": "*****",
+  "localCartDays": 1,
+
+  "結帳時預設顯示購物明細": "****",
+  "showSummary": true,
+
+  "會員訂單每頁筆數": "",
+  "ordersPerPage": 10
+}

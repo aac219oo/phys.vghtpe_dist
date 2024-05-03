@@ -1,0 +1,554 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+@import "bootstrap/dist/css/bootstrap.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --main-color: #007bff;
+  --secondary-color: #80b0ce;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* --------- header --------- */
+
+.navbar-nav .nav-item .nav-link {
+  white-space: nowrap;
+}
+.navbar-brand img {
+  margin-left: 10px;
+}
+#navbar-nav li {
+  padding: 0 1em;
+  position: relative;
+  transition: color 0.3s ease; /* 添加文字颜色的过渡效果 */
+}
+
+#navbar-nav li.nav-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+  height: 16px;
+  background-color: #929292;
+  transform: translate(0%, -50%);
+}
+
+#navbar-nav li:hover {
+  color: #007bff; /* 悬停时改变文字颜色 */
+  border-right-color: transparent; /* 悬停时隐藏右边框 */
+}
+
+#navbar-nav li::after {
+  content: ""; /* 添加内容，必须要有内容才能显示伪元素 */
+  display: block;
+  width: 0; /* 初始宽度为0，不显示下划线 */
+  height: 2px; /* 下划线高度 */
+  background-color: #007bff; /* 下划线颜色 */
+  position: absolute;
+  bottom: 0; /* 使下划线在链接底部 */
+  left: 0;
+  transition: width 0.3s ease; /* 添加下划线宽度的过渡效果 */
+}
+
+#navbar-nav li:hover::after {
+  width: 100%; /* 悬停时将宽度设置为100%，显示下划线 */
+}
+
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持圖片比例並充滿父元素 */
+}
+select {
+  font-size: 15px;
+  border: none;
+}
+.tel {
+  padding-left: 1em;
+  width: 85%;
+}
+.member {
+  padding: 0 1em;
+  width: 100%;
+}
+.shop {
+  width: 100%;
+}
+
+#navbar-nav .dropdown-menu li {
+  color: black;
+  text-wrap: nowrap;
+  border-right: none; /* 移除子菜單的右邊框 */
+}
+
+#navbar-nav .nav-item li:hover {
+  color: #007bff; /* 鼠標懸停時改變文字顏色 */
+}
+
+.dropdown-menu ul {
+  padding: 0 1rem;
+}
+
+.cart-badge {
+  display: inline-block; /* 或者 'block'，取決於您的佈局需求 */
+  width: 10px;
+  height: 10px; /* 確保您也設置了高度 */
+  background-color: red;
+  border-radius: 50%; /* 使其顯示為圓點 */
+  text-align: center; /* 如果有文本，使其居中 */
+  line-height: 10px; /* 如果有文本，調整以垂直居中 */
+  position: absolute;
+}
+
+/* --------- header end --------- */
+
+/* --------- main --------- */
+
+.main-page {
+  margin-top: 91px;
+}
+.banner {
+  width: 100%;
+  max-width: 2160px;
+  margin: 0 auto;
+}
+.banner img {
+  max-height: 600px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持圖片比例並充滿父元素 */
+}
+select {
+  font-size: 15px;
+  border: none;
+}
+.tel {
+  padding-left: 1em;
+  width: 85%;
+}
+.member {
+  padding: 0 1em;
+  width: 100%;
+}
+.shop {
+  width: 100%;
+}
+
+.content {
+  max-width: 1980px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
+#content-pic {
+  padding: 30px;
+}
+
+#content-pic .inside-box {
+  top: 0;
+  pointer-events: none;
+}
+
+#content-pic .pic-box {
+  transition: transform 0.3s;
+}
+
+#content-pic .pic-box:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+#content-pic .right {
+  color: white;
+}
+
+.index-section2 .img-outbox {
+  width: 90%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.index-section2 .Image {
+  width: 90%;
+  height: auto;
+}
+
+.index-section2-text {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* padding: 10px; */
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.index-section2 .right,
+.index-section2 .left {
+  width: 50%;
+}
+
+.index-section2 .left img {
+  object-position: center;
+  width: 80%;
+}
+
+.index-section2 .img-outbox {
+  transition: transform 0.3s;
+}
+.index-section2 .img-outbox:hover {
+  transform: scale(1.1);
+}
+
+.index-section2 .out-box img {
+  height: 50%;
+}
+
+.index-section2 a {
+  color: white;
+}
+
+.index-section2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.maintitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.maintitle h2 {
+  position: relative;
+  font-weight: 700;
+  margin: 0;
+}
+
+.maintitle::after {
+  content: "";
+  /* position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(0%, -50%); */
+  display: block;
+  width: 75%;
+  height: 6px;
+  margin-left: 20px;
+  background: linear-gradient(
+    to right,
+    rgba(30, 87, 153, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.news {
+  /* margin-left: 30px;
+  margin-right: 30px; */
+}
+.card-body span {
+  color: #80b0ce;
+}
+.card-body h1 {
+  position: relative;
+  right: 7px;
+  font-size: 20px;
+}
+.card-body p {
+  font-size: 15px;
+}
+
+.map {
+  height: 400px; /* 调整为所需的高度 */
+  width: 100%;
+  margin: 50px;
+}
+.map img {
+  width: 100%;
+  height: 400px;
+  padding: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-page {
+    margin-top: 101px;
+  }
+  .content {
+    padding: 0 2%;
+  }
+}
+
+/* --------- main end --------- */
+
+/* --------- footer --------- */
+
+.footer {
+  width: 100%;
+  border-top: 5px solid #3d7784;
+  background: #468a99;
+  padding: 0 0 20px 0;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.footer-bg {
+  background: #3d7784;
+}
+
+ul.footer-nav {
+  /* margin: 0 auto; */
+  /* width: 85%; */
+  padding: 10px 0;
+  /* box-sizing: border-box; */
+}
+.footer-nav li {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 20px;
+  /* float: left;
+  width: 12.3%; */
+  /* border-right: 1px solid #69cfe5; */
+}
+
+.footer-nav li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+  height: 16px;
+  background-color: #69cfe5;
+  transform: translate(0%, -50%);
+}
+
+.footer-nav li:last-child::before {
+  content: "";
+  display: none;
+}
+
+.footer-nav li:nth-child(8) {
+  border-right: 0px;
+}
+
+.footer-nav li .nav-link {
+  display: block;
+  color: #69cfe5;
+  /* width: 100%; */
+  margin: 0 10px;
+}
+
+.footer-nav li .nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer-box {
+  width: 50%;
+  float: left;
+  padding: 30px 0 10px 0;
+  box-sizing: border-box;
+}
+.footer-box li {
+  width: 25%;
+  float: left;
+  font-size: 14px;
+  height: 55px;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-box li a {
+  display: block;
+  color: #69cfe5;
+  box-sizing: border-box;
+}
+.footer-box a:hover {
+  text-decoration: underline;
+}
+.footer-box p {
+  font-size: 14px;
+  color: #69cfe5;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.footer-box p span {
+  color: #58adc0;
+}
+.footer-boxa {
+  position: relative;
+  right: 10%;
+}
+.copyright {
+  font-size: 12px;
+  color: #69cfe5;
+  text-align: center;
+}
+.visitCount {
+  color: #69cfe5;
+}
+.gototop {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+}
+
+@media only screen and (max-width: 640px) {
+  .footer-box a {
+    position: relative;
+    left: 0%;
+  }
+  .footer-boxa {
+    position: relative;
+    right: 20%;
+  }
+  .footer-nav li {
+    width: 49%;
+  }
+  .footer-nav li:nth-child(even) {
+    border-right: 0px;
+  }
+  .navbar-nav img {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  ul.footer-nav {
+    width: 100%;
+  }
+  .footer-nav li {
+    width: 24%;
+    margin: 0 0 5px 0;
+  }
+  .footer-nav li:nth-child(4) {
+    border-right: 0px;
+  }
+  .footer-box {
+    width: 100%;
+    float: none;
+    padding: 15px 0;
+    overflow: hidden;
+  }
+  .footer-box li {
+    width: 50%;
+    float: left;
+  }
+  .footerboxa {
+    left: -5em;
+  }
+
+  .gototop {
+    width: 44px;
+    height: 44px;
+    right: 10px;
+    bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .vertical-text li {
+    writing-mode: vertical-rl; /* 設定文字垂直排列 */
+    text-orientation: mixed;
+    transform: scale(-1);
+  }
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* 將元素均勻分佈在父容器中 */
+  }
+
+  .footer-nav li {
+    margin-right: 10px;
+  }
+
+  .footer-nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    writing-mode: horizontal-tb; /* 調整為橫向排列 */
+    text-orientation: upright;
+  }
+  .footer-box a {
+    position: relative;
+    right: 30%;
+  }
+}
+
+/* from feature */
+
+.title-pic {
+  width: 100%;
+  height: 15vh;
+  min-height: 100px;
+  background-image: url("../../assets/images/newbg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.title-pic-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.692) 0px 3px 5px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.title-pic-text-box-EN {
+  font-size: 17px;
+}
+
+@media screen and (min-width: 576px) {
+  .title-pic-text-box {
+    font-size: 40px;
+  }
+  .title-pic-text-box-EN {
+    font-size: 18px;
+  }
+}
+
+/* -------- error page -------- */
+
+.column-name{
+	font-size: 14px;
+	line-height: 14px;
+	display: inline-block;
+	border-width: 1px;
+	border-style: solid;
+	padding: 8px 8px;
+	border-radius: 4px;
+}
