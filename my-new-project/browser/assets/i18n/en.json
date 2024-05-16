@@ -1,0 +1,59 @@
+{
+  "menu_items": {
+    "news":"News",
+    "about": "About Us",
+    "items": "Examinations Items",
+    "reserve" : "Online Reservation",
+    "faq" : "FAQ",
+    "diet" : "Pre-examination Diet",
+    "contect":"Contact Us",
+    "employee":"Employee Questionnaire",
+    "tel": "assets/images/tel-en.png",
+    "tel_text":"Due to busy phone lines, we suggest contacting us through this number."
+  },
+  "menu_items_children": {
+    "info":"Our features",
+    "team": "Our Team",
+    "line":"LINE",
+    "counter_apointment":"Apointment",
+    "survey_pb":"鉛作業問卷",
+    "survey_dust":"粉塵作業問卷",
+    "survey_hoco":"甲醛作業問卷",
+    "survey_radiation":"游離作業問卷",
+    "survey_night":"長期夜間工作問卷",
+    "survey_tired":"壓力量表"
+  },
+  "info" : {
+    "our_features":"Our features",
+    "first" : "The best health inspection team in the country",
+    "second" : "The attending physician examines and is responsible for reporting and interpretation",
+    "third" : "Professor doctor is responsible for performing endoscopy",
+    "fourth" : "Standard room for one person, able to fully rest and have personal privacy",
+    "fifth" : "Provide comprehensive, holistic health management and care",
+    "environment" : "Environment"
+  },
+  "footer": {
+    "address": "No.201,Shipai Road Sec 2, Taipei,112,Taiwan",
+    "tel_tip1": "(One-day, Two-day Check-up)",
+    "tel_tip2": "(Joint Medical Examination)",
+    "tel_text": "Due to high call volumes, please use the 'Contact Us' section wisely",
+    "introduction": "Introduction of Check-up Items and Prices",
+    "online_reserve": "Online Reservation",
+    "service_line": "Health Check-up Reservation Service Line.",
+    "contact_us": "Contact Us",
+    "visits": "Visits",
+    "views": "Page Views Today",
+    "copyright": "All content on this website is owned by Taipei Veterans General Hospital. Please respect intellectual property rights. Unauthorized reproduction, copying, or commercial use is prohibited. Internet service providers are prohibited from transcribing the content of this website without permission."
+  },
+  "pagination": {
+    "prev": "prev",
+    "next": "next"
+  },
+  "sys_message" : {
+    "no_page" : "抱歉，找不到該頁面。",
+    "sql_error" : "抱歉，資料庫發生錯誤。",
+    "data_error" : "抱歉，資料發生錯誤。",
+    "no_data" : "抱歉，暫無資料。",
+    "back_list": "News list"
+  }
+}

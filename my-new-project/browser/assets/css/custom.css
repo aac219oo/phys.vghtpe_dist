@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 /* styles.css */
 
-@import "bootstrap/dist/css/bootstrap.css";
+/* @import "bootstrap/dist/css/bootstrap.css"; */
 * {
   padding: 0;
   margin: 0;
@@ -22,20 +22,26 @@
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  /* overflow-wrap: break-word; */
 }
 
 /* --------- header --------- */
 
 .navbar-nav .nav-item .nav-link {
-  white-space: nowrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 .navbar-brand img {
   margin-left: 10px;
+}
+#navbar-nav {
+  align-items: center;
 }
 #navbar-nav li {
   padding: 0 1em;
   position: relative;
   transition: color 0.3s ease; /* 添加文字颜色的过渡效果 */
+  max-width: 200px;
 }
 
 #navbar-nav li.nav-item::before {
@@ -71,34 +77,19 @@ body {
   width: 100%; /* 悬停时将宽度设置为100%，显示下划线 */
 }
 
-.banner {
-  width: 100%;
-}
-.banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* 保持圖片比例並充滿父元素 */
-}
-select {
-  font-size: 15px;
-  border: none;
-}
-.tel {
-  padding-left: 1em;
-  width: 85%;
-}
-.member {
-  padding: 0 1em;
-  width: 100%;
-}
-.shop {
-  width: 100%;
+#navbar-nav .nav-link {
+  max-width: 200px;
+  text-align: center;
 }
 
 #navbar-nav .dropdown-menu li {
   color: black;
   text-wrap: nowrap;
   border-right: none; /* 移除子菜單的右邊框 */
+}
+
+#navbar-nav .dropdown {
+  cursor: pointer;
 }
 
 #navbar-nav .nav-item li:hover {
@@ -120,6 +111,16 @@ select {
   position: absolute;
 }
 
+@media screen and (max-width: 1024px) {
+  #navbar-nav li.nav-item::before {
+    display: none;
+  }
+
+  #navbar-nav li.nav-item::after {
+    display: none;
+  }
+}
+
 /* --------- header end --------- */
 
 /* --------- main --------- */
@@ -130,7 +131,7 @@ select {
 .banner {
   width: 100%;
   max-width: 2160px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 .banner img {
   max-height: 600px;
@@ -161,7 +162,11 @@ select {
 }
 
 #content-pic {
-  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 30px; */
 }
 
 #content-pic .inside-box {
@@ -180,6 +185,11 @@ select {
 
 #content-pic .right {
   color: white;
+}
+
+.content-pic-box {
+  padding: 15px 0px;
+  /* width: 24%; */
 }
 
 .index-section2 .img-outbox {
@@ -237,24 +247,24 @@ select {
   padding: 0;
 }
 
-.maintitle {
+.title {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.maintitle h2 {
+.title h2 {
   position: relative;
   font-weight: 700;
   margin: 0;
 }
 
-.maintitle::after {
+/* .title::after {
   content: "";
-  /* position: absolute;
+  position: absolute;
   top: 50%;
   left: 20%;
-  transform: translate(0%, -50%); */
+  transform: translate(0%, -50%);
   display: block;
   width: 75%;
   height: 6px;
@@ -264,24 +274,95 @@ select {
     rgba(30, 87, 153, 0.5) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-}
+} */
 
 .news {
-  /* margin-left: 30px;
-  margin-right: 30px; */
-}
-.card-body span {
-  color: #80b0ce;
-}
-.card-body h1 {
-  position: relative;
-  right: 7px;
-  font-size: 20px;
-}
-.card-body p {
-  font-size: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
 }
 
+.news-box {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  min-width: 0;
+}
+
+.news-media-box {
+  display: flex;
+  min-width: 320px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.news-media-box > * {
+  border-radius: 25px;
+}
+
+.news-pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.news-card-body {
+  width: 100%;
+  padding: 20px;
+  min-width: 0; /* 解決flex導致text-overflow ellipsis失效的問題 */
+}
+
+.news-card-body span {
+  color: #80b0ce;
+}
+
+.news-date {
+  color: #3d7784;
+}
+
+.news-title {
+  font-size: 18px;
+  color: #444;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.news-content {
+  font-size: 17px;
+  line-height: 30px;
+  height: 90px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.yt-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 25px;
+}
+app-detail .yt-container {
+  padding-bottom: 56.25%;
+}
+.yt-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .map {
   height: 400px; /* 调整为所需的高度 */
   width: 100%;
@@ -293,6 +374,28 @@ select {
   padding: 2em;
 }
 
+.gradient-line {
+  width: 50%; /* 線條寬度 */
+  height: 5px; /* 線條高度 */
+  margin-left: 1%;
+  background: linear-gradient(
+    to right,
+    #80b0ce,
+    transparent
+  ); /* 從藍色過渡到透明 */
+}
+
+.mat-mdc-form-field-has-icon-suffix .mat-mdc-text-field-wrapper {
+  background-color: unset !important;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.473);
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input{
+  color: #000 !important;
+}
+.mat-datepicker-toggle-default-icon.ng-star-inserted {
+  filter: invert(65%);
+}
+
 @media screen and (max-width: 1024px) {
   .main-page {
     margin-top: 101px;
@@ -300,6 +403,30 @@ select {
   .content {
     padding: 0 2%;
   }
+  .news {
+    grid-template-columns: 1fr;
+  }
+  .news-media-box {
+    display: none;
+  }
+  .news-box {
+    border-bottom: 1px solid #eee;
+  }
+  .gradient-line {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    flex-wrap: wrap;
+  }
+  .news-media-box {
+    min-width: unset;
+  }
+  /* .title::after {
+    width: 50%;
+  } */
 }
 
 /* --------- main end --------- */
@@ -319,8 +446,12 @@ select {
 }
 
 ul.footer-nav {
-  /* margin: 0 auto; */
-  /* width: 85%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
   padding: 10px 0;
   /* box-sizing: border-box; */
 }
@@ -359,6 +490,7 @@ ul.footer-nav {
   display: block;
   color: #69cfe5;
   /* width: 100%; */
+  width: -webkit-fill-available;
   margin: 0 10px;
 }
 
@@ -421,23 +553,34 @@ ul.footer-nav {
   bottom: 40px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1200px) {
+  .vertical-text li {
+    writing-mode: vertical-rl; /* 設定文字垂直排列 */
+    text-orientation: mixed;
+    transform: scale(-1);
+  }
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* 將元素均勻分佈在父容器中 */
+  }
+
+  .footer-nav li {
+    margin-right: 10px;
+  }
+
+  .footer-nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    writing-mode: horizontal-tb; /* 調整為橫向排列 */
+    text-orientation: upright;
+  }
   .footer-box a {
     position: relative;
-    left: 0%;
-  }
-  .footer-boxa {
-    position: relative;
-    right: 20%;
-  }
-  .footer-nav li {
-    width: 49%;
-  }
-  .footer-nav li:nth-child(even) {
-    border-right: 0px;
-  }
-  .navbar-nav img {
-    display: none;
+    right: 30%;
   }
 }
 
@@ -473,34 +616,30 @@ ul.footer-nav {
     bottom: 50px;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .vertical-text li {
-    writing-mode: vertical-rl; /* 設定文字垂直排列 */
-    text-orientation: mixed;
-    transform: scale(-1);
-  }
-  .footer-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between; /* 將元素均勻分佈在父容器中 */
-  }
 
-  .footer-nav li {
-    margin-right: 10px;
-  }
-
-  .footer-nav a {
-    text-decoration: none;
-    color: #333;
-    display: block;
-    writing-mode: horizontal-tb; /* 調整為橫向排列 */
-    text-orientation: upright;
-  }
+@media only screen and (max-width: 768px) {
   .footer-box a {
     position: relative;
-    right: 30%;
+    left: 0%;
+  }
+  .footer-boxa {
+    position: relative;
+    right: 20%;
+  }
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-nav li {
+    width: 49%;
+  }
+
+  .footer-nav li:nth-child(even)::before {
+    content: "";
+    display: none;
+  }
+  .navbar-nav img {
+    display: none;
   }
 }
 
@@ -510,6 +649,7 @@ ul.footer-nav {
   width: 100%;
   height: 15vh;
   min-height: 100px;
+  margin-bottom: 30px;
   background-image: url("../../assets/images/newbg.png");
   background-position: center;
   background-size: cover;
@@ -543,12 +683,12 @@ ul.footer-nav {
 
 /* -------- error page -------- */
 
-.column-name{
-	font-size: 14px;
-	line-height: 14px;
-	display: inline-block;
-	border-width: 1px;
-	border-style: solid;
-	padding: 8px 8px;
-	border-radius: 4px;
+.column-name {
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  padding: 8px 8px;
+  border-radius: 4px;
 }

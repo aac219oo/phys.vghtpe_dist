@@ -1,0 +1,187 @@
+[
+  {
+    "type": [
+      {
+        "id": 1,
+        "name": "基本組套",
+        "en_name": "en_name",
+        "packages": [
+          {
+            "id": 1,
+            "name": "基礎半日組套",
+            "en_name": "english＿name",
+            "type": "1",
+            "price": 6000,
+            "workday": "週一至週四"
+          },
+          {
+            "id": 2,
+            "name": "基礎一日組套",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 3,
+            "name": "基礎一日含低劑量電腦斷層",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 4,
+            "name": "基礎一日含無痛胃鏡大腸鏡",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 5,
+            "name": "基礎一日含無痛胃鏡大腸鏡和低劑量電腦斷層",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 6,
+            "name": "無痛胃鏡大腸鏡",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 7,
+            "name": "無痛胃鏡大腸鏡+抽血",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 8,
+            "name": "無痛胃鏡+抽血",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 9,
+            "name": "無痛大腸鏡+抽血",
+            "en_name": "english_name",
+            "type": "1",
+            "price": 19500,
+            "workday": "週一至週五"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "高階影像",
+        "en_name": "en_name",
+        "packages": [
+          {
+            "id": 19,
+            "name": "全身重點腫瘤磁振造影檢查(Whole bodyMRI)(不含腦血管檢查)",
+            "en_name": "english_name",
+            "type": "2",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 20,
+            "name": "腦血管磁振造影檢查(BrainMRA,Head & Neck MRA)",
+            "en_name": "english_name",
+            "type": "2",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 21,
+            "name": "乳房磁振造影檢查(Breast MRI)",
+            "en_name": "english_name",
+            "type": "2",
+            "price": 19500,
+            "workday": "週一至週五"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "加項",
+        "en_name": "en_name",
+        "packages": [
+          {
+            "id": 25,
+            "name": "心血管檢查組套(1152切面電腦斷層心臟血管檢查+心臟超音波+頸部超音波)",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 26,
+            "name": "骨質檢查組套(骨質密度S.H+維他命D3+頸胸腰椎X光+身體組成分析+PTH+10年骨折風險評估)",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 27,
+            "name": "全身正子造影檢查(Whole body PET)",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 28,
+            "name": "睡眠多項生理檢查",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 29,
+            "name": "基因檢測",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 30,
+            "name": "婦科超音波(經腹部)Trans abdominal ultrasound(TAS)",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 31,
+            "name": "婦科超音波(經陰道)Trans vaginal ultrasound (TVS)",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          },
+          {
+            "id": 32,
+            "name": "甲狀腺超音波 Thyroid ultrasound",
+            "en_name": "english_name",
+            "type": "3",
+            "price": 19500,
+            "workday": "週一至週五"
+          }
+        ]
+      }
+    ]
+  }
+]

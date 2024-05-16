@@ -1,0 +1,24 @@
+[
+  {
+    "feature" : [
+      {
+        "gridCount" : 1,
+        "imgUrl" : ["../assets/images/about_img.png"]
+      },
+      {
+        "gridCount" : 2,
+        "imgUrl" : ["../assets/images/about_img.png","../assets/images/about_img.png"]
+      },
+      {
+        "gridCount" : 3,
+        "imgUrl" : ["../assets/images/about_img.png","../assets/images/about_img.png","../assets/images/about_img.png"]
+      }
+    ],
+    "environment" : [
+      {
+        "gridCount" : 3,
+        "imgUrl" : ["../assets/images/Rectangle%2013.png","../assets/images/Rectangle%2013.png","../assets/images/Rectangle%2015.png"]
+      }
+    ]
+  }
+]
