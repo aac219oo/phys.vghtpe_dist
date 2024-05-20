@@ -19,10 +19,20 @@
   --secondary-color: #80b0ce;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   /* overflow-wrap: break-word; */
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
 }
 
 /* --------- header --------- */
@@ -140,7 +150,7 @@ body {
   object-fit: cover; /* 保持圖片比例並充滿父元素 */
 }
 select {
-  font-size: 15px;
+  font-size: 0.9375rem;
   border: none;
 }
 .tel {
@@ -213,7 +223,7 @@ select {
   /* background-color: rgba(0, 0, 0, 0.5); */
   /* padding: 10px; */
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .index-section2 .right,
@@ -325,7 +335,7 @@ select {
 }
 
 .news-title {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #444;
   font-weight: bold;
   overflow: hidden;
@@ -335,7 +345,7 @@ select {
 }
 
 .news-content {
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 30px;
   height: 90px;
   margin-bottom: 5px;
@@ -391,6 +401,12 @@ app-detail .yt-container {
 }
 .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input{
   color: #000 !important;
+}
+.mdc-text-field--filled.mdc-text-field--disabled .mdc-text-field__input{
+  color: #000 !important;
+}
+.mdc-text-field--filled.mdc-text-field--disabled .mdc-floating-label {
+  color: #929292 !important;
 }
 .mat-datepicker-toggle-default-icon.ng-star-inserted {
   filter: invert(65%);
@@ -457,7 +473,7 @@ ul.footer-nav {
 }
 .footer-nav li {
   position: relative;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   padding: 0 20px;
   /* float: left;
@@ -507,7 +523,7 @@ ul.footer-nav {
 .footer-box li {
   width: 25%;
   float: left;
-  font-size: 14px;
+  font-size: 0.875rem;
   height: 55px;
   padding: 0 5px 0 0;
   box-sizing: border-box;
@@ -525,7 +541,7 @@ ul.footer-nav {
   text-decoration: underline;
 }
 .footer-box p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #69cfe5;
   letter-spacing: 1px;
   line-height: 20px;
@@ -538,7 +554,6 @@ ul.footer-nav {
   right: 10%;
 }
 .copyright {
-  font-size: 12px;
   color: #69cfe5;
   text-align: center;
 }
@@ -664,27 +679,27 @@ ul.footer-nav {
   height: 100%;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.692) 0px 3px 5px;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: bolder;
 }
 
 .title-pic-text-box-EN {
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 @media screen and (min-width: 576px) {
   .title-pic-text-box {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .title-pic-text-box-EN {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
 /* -------- error page -------- */
 
 .column-name {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 14px;
   display: inline-block;
   border-width: 1px;
