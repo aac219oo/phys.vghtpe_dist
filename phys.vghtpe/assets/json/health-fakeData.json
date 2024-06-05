@@ -1,186 +1,213 @@
+
 [
   {
-    "type": [
+    "id": 1,
+    "type": "1",
+    "mark": "2",
+    "text_show": "1",
+    "image_show": "0",
+    "video_show": "0",
+    "text": "",
+    "image": "",
+    "video": "",
+    "title": "低渣飲食／檢查前二天可食",
+    "title_isshow": "1",
+    "sort": "",
+    "en_title": "Low-residue diet/can be eaten two days before the examination",
+    "en_text": "txtText＿en",
+    "filename": [
       {
-        "id": 1,
-        "name": "基本組套",
-        "en_name": "en_name",
-        "packages": [
-          {
-            "id": 1,
-            "name": "基礎半日組套",
-            "en_name": "english＿name",
-            "type": "1",
-            "price": 6000,
-            "workday": "週一至週四"
-          },
-          {
-            "id": 2,
-            "name": "基礎一日組套",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 3,
-            "name": "基礎一日含低劑量電腦斷層",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 4,
-            "name": "基礎一日含無痛胃鏡大腸鏡",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 5,
-            "name": "基礎一日含無痛胃鏡大腸鏡和低劑量電腦斷層",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 6,
-            "name": "無痛胃鏡大腸鏡",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 7,
-            "name": "無痛胃鏡大腸鏡+抽血",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 8,
-            "name": "無痛胃鏡+抽血",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 9,
-            "name": "無痛大腸鏡+抽血",
-            "en_name": "english_name",
-            "type": "1",
-            "price": 19500,
-            "workday": "週一至週五"
-          }
-        ]
+        "path": "https://phys.vghtpe.gov.tw/images/06/f01.png",
+        "name": "稀飯",
+        "enname": "gruel"
       },
       {
-        "id": 2,
-        "name": "高階影像",
-        "en_name": "en_name",
-        "packages": [
-          {
-            "id": 19,
-            "name": "全身重點腫瘤磁振造影檢查(Whole bodyMRI)(不含腦血管檢查)",
-            "en_name": "english_name",
-            "type": "2",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 20,
-            "name": "腦血管磁振造影檢查(BrainMRA,Head & Neck MRA)",
-            "en_name": "english_name",
-            "type": "2",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 21,
-            "name": "乳房磁振造影檢查(Breast MRI)",
-            "en_name": "english_name",
-            "type": "2",
-            "price": 19500,
-            "workday": "週一至週五"
-          }
-        ]
+        "path": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/food_health/title1/301c8e99212c4ebe8a19cac945a3f259.png",
+        "name": "麵條",
+        "enname": "noodle"
       },
       {
-        "id": 3,
-        "name": "加項",
-        "en_name": "en_name",
-        "packages": [
-          {
-            "id": 25,
-            "name": "心血管檢查組套(1152切面電腦斷層心臟血管檢查+心臟超音波+頸部超音波)",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 26,
-            "name": "骨質檢查組套(骨質密度S.H+維他命D3+頸胸腰椎X光+身體組成分析+PTH+10年骨折風險評估)",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 27,
-            "name": "全身正子造影檢查(Whole body PET)",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 28,
-            "name": "睡眠多項生理檢查",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 29,
-            "name": "基因檢測",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 30,
-            "name": "婦科超音波(經腹部)Trans abdominal ultrasound(TAS)",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 31,
-            "name": "婦科超音波(經陰道)Trans vaginal ultrasound (TVS)",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          },
-          {
-            "id": 32,
-            "name": "甲狀腺超音波 Thyroid ultrasound",
-            "en_name": "english_name",
-            "type": "3",
-            "price": 19500,
-            "workday": "週一至週五"
-          }
-        ]
+        "path": "https://phys.vghtpe.gov.tw/images/06/f03.png",
+        "name": "饅頭、白吐司",
+        "enname": "Steamed buns, white toast"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f04.png",
+        "name": "嫩豆腐",
+        "enname": "Silky tofu"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f05.png",
+        "name": "去皮魚肉",
+        "enname": "Skinless fish"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f06.png",
+        "name": "肉鬆",
+        "enname": "Meat floss"
+      },
+      {
+        "path": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/food_health/title1/16b56f069c054283a56282dcbb9ff976.png",
+        "name": "去皮籽瓜類",
+        "enname": "Peeled and seeded melons"
+      },
+
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f08.png",
+        "name": "無渣飲料",
+        "enname": "No residue drinks"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "2",
+    "mark": "1",
+    "text_show": "0",
+    "image_show": "0",
+    "video_show": "0",
+    "text": "",
+    "image": "",
+    "video": "",
+    "title": "清流質飲食／檢查前一天可食",
+    "title_isshow": "1",
+    "sort": null,
+    "en_title": "Clear liquid diet/ can be eaten the day before the examination",
+    "en_text": null,
+    "filename": [
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f09.png",
+        "name": "運動飲料運動飲料",
+        "enname": "energy drink"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f10.png",
+        "name": "無渣飲料",
+        "enname": "No residue drinks"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f11.png",
+        "name": "雞精",
+        "enname": "essence of chicken"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f12.png",
+        "name": "米湯",
+        "enname": "Rice soup"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "3",
+    "mark": "2",
+    "text_show": "1",
+    "image_show": "0",
+    "video_show": "0",
+    "text": "不可以吃：高纖蔬菜（芹菜、竹筍）、未過濾果汁、含筋皮肉類、奶製品（牛奶、羊奶、奶酪、優酪乳）、葡萄汁、豆漿。\r\n",
+    "image": "",
+    "video": "",
+    "title": "檢查前二天不可吃",
+    "title_isshow": "1",
+    "sort": null,
+    "en_title": "Do not eat two days before the examination",
+    "en_text": null,
+    "filename": [
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f13.png",
+        "name": "豆漿",
+        "enname": "soy milk"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f14.png",
+        "name": "奶製品",
+        "enname": "dairy"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f15.png",
+        "name": "高纖蔬菜",
+        "enname": "High fiber vegetables"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f16.png",
+        "name": "水果",
+        "enname": "soy milk"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f17.png",
+        "name": "起司製品",
+        "enname": "cheese products"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f18.png",
+        "name": "葡萄汁",
+        "enname": "grape juice"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "4",
+    "mark": "1",
+    "text_show": "0",
+    "image_show": "0",
+    "video_show": "1",
+    "text": "",
+    "image": "",
+    "video": "",
+    "title": "Intestinal cleanliness",
+    "title_isshow": "1",
+    "sort": null,
+    "en_title": null,
+    "en_text": null,
+    "filename": [
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f19.png",
+        "name": "解出混濁液態糞便",
+        "enname": "Remove cloudy liquid stool"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f20.png",
+        "name": "清潔度差",
+        "enname": "Poor cleanliness"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f21.png",
+        "name": "解出黃色清澈液體",
+        "enname": "Dissolve yellow clear liquid"
+      },
+      {
+        "path": "https://phys.vghtpe.gov.tw/images/06/f22.png",
+        "name": "清潔度佳",
+        "enname": "Good cleanliness"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "5",
+    "mark": "1",
+    "text_show": "0",
+    "image_show": "1",
+    "video_show": "0",
+    "text": "",
+    "image": "",
+    "video": "https://www.youtube.com/watch?v=RUogThVFHG8",
+    "title": "請務必配合好相關的飲食注意事項",
+    "title_isshow": "1",
+    "sort": null,
+    "en_title": "Please be sure to follow the relevant dietary precautions",
+    "en_text": null,
+    "filename": [
+      {
+        "path": "https://www.youtube.com/watch?v=RUogThVFHG8",
+        "name": "",
+        "enname": ""
+      },
+      {
+        "path": "https://www.youtube.com/watch?v=RUogThVFHG8",
+        "name": "",
+        "enname": ""
       }
     ]
   }

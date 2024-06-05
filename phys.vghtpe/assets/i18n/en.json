@@ -6,7 +6,7 @@
     "reserve" : "Online Reservation",
     "faq" : "FAQ",
     "diet" : "Pre-examination Diet",
-    "contect":"Contact Us",
+    "contact":"Contact Us",
     "employee":"Employee Questionnaire",
     "tel": "assets/images/tel-en.png",
     "tel_text":"Due to busy phone lines, we suggest contacting us through this number."
@@ -15,7 +15,7 @@
     "info":"Our features",
     "team": "Our Team",
     "line":"LINE",
-    "counter_apointment":"Apointment",
+    "counter_appointment":"Apointment",
     "survey_pb":"鉛作業問卷",
     "survey_dust":"粉塵作業問卷",
     "survey_hoco":"甲醛作業問卷",

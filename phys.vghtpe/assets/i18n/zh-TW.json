@@ -6,8 +6,8 @@
     "reserve": "網路預約",
     "faq": "常見問題",
     "diet": "檢前飲食",
-    "contect": "聯絡我們",
-    "employee": "員工問券",
+    "contact": "聯絡我們",
+    "employee": "員工問卷",
     "tel": "assets/images/tel.png",
     "tel_text": "因服務電話使用量大建議由此聯絡我們"
   },
@@ -15,13 +15,22 @@
     "info": "我們的特色",
     "team": "我們的團隊",
     "line": "官方LINE",
-    "counter_apointment": "臨櫃預約",
+    "counter_appointment": "臨櫃預約",
     "survey_pb": "鉛作業問卷",
     "survey_dust": "粉塵作業問卷",
     "survey_hoco": "甲醛作業問卷",
     "survey_radiation": "游離作業問卷",
     "survey_night": "長期夜間工作問卷",
-    "survey_tired": "壓力量表"
+    "survey_tired": "壓力量表",
+    "login": "會員登入",
+    "appointment_record": "歷年預約紀錄",
+    "risk_changes": "歷年風險變化"
+  },
+  "index": {
+    "personalized_risk_assessment": "個人化風險評估及健檢組套建議",
+    "examination_items": "健檢組套",
+    "online_reservation": "線上預約",
+    "official_line": "官方LINE"
   },
   "info": {
     "our_features": "我們的特色",
@@ -31,6 +40,12 @@
     "fourth": "標準一人一室，能充分休息並有個人隱私空間",
     "fifth": "提供全面性、整體健康管理與照護",
     "environment": "環境介紹"
+  },
+  "team": {
+    "service_team": "服務團隊"
+  },
+  "examination_items": {
+    "examination_items": "健檢組套"
   },
   "footer": {
     "address": "地址：112 台北市北投區石牌路二段201號中正樓15樓",
