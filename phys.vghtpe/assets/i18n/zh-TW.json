@@ -47,7 +47,52 @@
   "examination_items": {
     "examination_items": "健檢組套"
   },
-
+  "login": {
+    "member_exclusive": "會員專屬",
+    "past_appointments_and_risk_changes": "歷年預約及風險變化",
+    "login_to_inquire": "登入查詢",
+    "id_number": "證件號碼",
+    "enter_id_number_as": "輸入證件號碼為",
+    "id_card_number": "身分證字號(10碼)",
+    "medical_record_number": "病歷號(7碼)",
+    "other_id_types": "其他(護照號、居留證號碼及大陸居民來住台灣通行證號等)",
+    "date_of_birth": "出生日期",
+    "date_format": "民國年-月-日",
+    "send_otp": "發送登入OTP驗證碼，請選擇接收方式",
+    "mobile_verification": "手機驗證",
+    "email_verification": "email驗證",
+    "enter_mobile_number": "輸入手機號碼",
+    "enter_email": "輸入email",
+    "send_verification_code": "寄送驗證碼",
+    "resend_verification_code": "稍後重新寄送驗證碼（",
+    "seconds": "秒）",
+    "no_verification_code_received": "若沒有收到驗證碼。請稍後再試一次（",
+    "verification_code": "驗證碼",
+    "login": "登入",
+    "verification_code_error": "輸入的驗證碼錯誤。請再試一次。"
+  },
+  "contactLine": {
+    "title": "官方LINE",
+    "subtitle1":"歡迎使用本中心官方預約LINE服務",
+    "subtitle2":"希望能提供更加有效服務與協助關於健檢預約相關疑問",
+    "content1":"1.請先點選LINE中的「加入好友」。",
+    "content2":"2.再利用掃描左方「行動條碼」",
+    "subcontent1":"名稱搜尋「頂好健康管理」將官方帳號設為好友。",
+    "content3":"3.進入聊天室，即可開啟對話!",
+    "subcontent2":"服務人員將於上班時間盡速回覆您~"
+  },
+  "contactAddress": {
+    "title": "臨櫃預約",
+    "subtitle":"台北榮民總醫院-健康管理中心",
+    "content":"112台北市北投區石牌路二段201號中正樓15樓~"
+  },
+  "reserve4": {
+    "title": "線上預約",
+    "reservedate":"可預約時間",
+    "nextstep":"下一步",
+    "slots": "餘額",
+    "full" : "已滿額"
+  },
   "footer": {
     "address": "地址：112 台北市北投區石牌路二段201號中正樓15樓",
     "tel_tip1": "(一日、二日健檢)",

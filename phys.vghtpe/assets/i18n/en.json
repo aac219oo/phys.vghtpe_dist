@@ -23,6 +23,12 @@
     "survey_night":"長期夜間工作問卷",
     "survey_tired":"壓力量表"
   },
+  "index": {
+    "personalized_risk_assessment": "個人化風險評估及健檢組套建議",
+    "examination_items": "健檢組套",
+    "online_reservation": "線上預約",
+    "official_line": "官方LINE"
+  },
   "info" : {
     "our_features":"Our features",
     "first" : "The best health inspection team in the country",
@@ -31,6 +37,58 @@
     "fourth" : "Standard room for one person, able to fully rest and have personal privacy",
     "fifth" : "Provide comprehensive, holistic health management and care",
     "environment" : "Environment"
+  },
+  "team": {
+    "service_team": "服務團隊"
+  },
+  "examination_items": {
+    "examination_items": "健檢組套"
+  },
+  "login": {
+    "member_exclusive": "Member Exclusive",
+    "past_appointments_and_risk_changes": "Past Appointments and Risk Changes",
+    "login_to_inquire": "Login to Inquire",
+    "id_number": "ID Number",
+    "enter_id_number_as": "Enter ID Number as",
+    "id_card_number": "ID Card Number (10 digits)",
+    "medical_record_number": "Medical Record Number (7 digits)",
+    "other_id_types": "Other (Passport Number, Resident Permit Number, and Mainland Resident Permit Number, etc.)",
+    "date_of_birth": "Date of Birth",
+    "date_format": "ROC Year-Month-Day",
+    "send_otp": "Send OTP Verification Code for Login, Please Select Receiving Method",
+    "mobile_verification": "Mobile Verification",
+    "email_verification": "Email Verification",
+    "enter_mobile_number": "Enter Mobile Number",
+    "enter_email": "Enter Email",
+    "send_verification_code": "Send Verification Code",
+    "resend_verification_code": "Resend Verification Code in (",
+    "seconds": "seconds)",
+    "no_verification_code_received": "If you did not receive the verification code, please try again later (",
+    "verification_code": "Verification Code",
+    "login": "Login",
+    "verification_code_error": "The verification code entered is incorrect. Please try again."
+  },
+  "contactLine": {
+    "title": "Official LINE",
+    "subtitle1":"Welcome to our official appointment LINE service.",
+    "subtitle2":"We hope to provide better and more efficient assistance for any questions related to health checkup reservations.",
+    "content1":"1.Please start by clicking \"Add Friend\" in LINE.",
+    "content2":"2.Then, use the \"QR Code Scanner\" on the left to search for",
+    "subcontent1":"\"頂好健康管理\" and add the official account as a friend.",
+    "content3":"3.Once you're in the chat room, you can start the conversation!",
+    "subcontent2":"Our staff will respond as soon as possible during working hours~"
+  },
+  "contactAddress": {
+    "title": "Reservation",
+    "subtitle":"Taipei Veteran Hospital-Healthcare and Service Center",
+    "content":"112 15th Floor, Zhongzheng Building, No. 201, Section 2, Shipai Road, Beitou District, Taipei City"
+  },
+  "reserve4": {
+    "title": "Online Reservation",
+    "reservedate":"Appointment time available",
+    "nextstep":"Next Confirm",
+    "slots": "slots",
+    "full" : "Full"
   },
   "footer": {
     "address": "No.201,Shipai Road Sec 2, Taipei,112,Taiwan",
