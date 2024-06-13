@@ -23,6 +23,7 @@
     "survey_night": "長期夜間工作問卷",
     "survey_tired": "壓力量表",
     "login": "會員登入",
+    "logout": "會員登出",
     "appointment_record": "歷年預約紀錄",
     "risk_changes": "歷年風險變化"
   },

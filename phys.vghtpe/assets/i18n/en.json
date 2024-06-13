@@ -21,7 +21,11 @@
     "survey_hoco":"甲醛作業問卷",
     "survey_radiation":"游離作業問卷",
     "survey_night":"長期夜間工作問卷",
-    "survey_tired":"壓力量表"
+    "survey_tired":"壓力量表",
+    "login": "Login",
+    "logout": "Logout",
+    "appointment_record": "Appointment record",
+    "risk_changes": "Risk changes"
   },
   "index": {
     "personalized_risk_assessment": "個人化風險評估及健檢組套建議",

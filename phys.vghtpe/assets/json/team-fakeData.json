@@ -10,7 +10,7 @@
     "members": [
       {
         "id": "1",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230606100524090.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230606100524090.jpg",
         "team_category": "健康管理中心主任",
         "name": "黃怡翔 部主任醫師",
         "en_name": "Huang Yi Hsiang",
@@ -36,7 +36,7 @@
     "members": [
       {
         "id": "2",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164024619.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164024619.jpg",
         "team_category": "健康管理中心副主任",
         "name": "呂信邦 副主任醫師",
         "en_name": "Hsin-Bang Leu, MD, PhD, FACC",
@@ -62,7 +62,7 @@
     "members": [
       {
         "id": "3",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164107597.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164107597.jpg",
         "team_category": "本中心科主任",
         "name": "許百豐  健康管理科主任醫師",
         "en_name": "Pai-Feng Hsu, MD, PhD",
@@ -82,7 +82,7 @@
       },
       {
         "id": "4",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230801110251815.jpeg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230801110251815.jpeg",
         "team_category": "本中心科主任",
         "name": "徐博奎 一般健檢科主任醫師",
         "en_name": "Po-Kuei Hsu MD, PhD",
@@ -102,7 +102,7 @@
       },
       {
         "id": "5",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230801153757358.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230801153757358.jpg",
         "team_category": "本中心科主任",
         "name": "張世霖 實驗檢查科主任醫師",
         "en_name": "",
@@ -128,7 +128,7 @@
     "members": [
       {
         "id": "6",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181129165108340.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181129165108340.jpg",
         "team_category": "本中心醫師",
         "name": "王苑貞 主治醫師",
         "en_name": "Yuan-Jen Wang, MD",
@@ -148,7 +148,7 @@
       },
       {
         "id": "7",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164044817.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164044817.jpg",
         "team_category": "本中心醫師",
         "name": "盧澤民 主治醫師",
         "en_name": "Lu Tse-Min, MD. PhD. FACC.",
@@ -170,7 +170,7 @@
 
       {
         "id": "8",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181207140259559.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181207140259559.jpg",
         "team_category": "本中心醫師",
         "name": "劉德鈴 主治醫師",
         "en_name": "Teh-Ling Liou, MD",
@@ -191,7 +191,7 @@
 
       {
         "id": "9",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181129165415819.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181129165415819.jpg",
         "team_category": "本中心醫師",
         "name": "王盈文 主治醫師",
         "en_name": "Ying-Wen Wang， MD",
@@ -211,7 +211,7 @@
       },
       {
         "id": "10",
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230721151444000.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20230721151444000.jpg",
         "team_category": "本中心醫師",
         "name": "黃少嵩 主治醫師",
         "en_name": "Shao-Sung Huang, MD",
@@ -230,7 +230,7 @@
         "url": ""
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164146543.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181210164146543.jpg",
         "team_category": "本中心醫師",
         "name": "林崇棋 主治醫師",
         "en_name": "Chung-Chi Lin, MD",
@@ -251,7 +251,7 @@
 
 
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190817151518760.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190817151518760.jpg",
         "team_category": "本中心醫師",
         "name": "張重昱 主治醫師",
         "en_name": "Chung-YU Chang, MD",
@@ -277,7 +277,7 @@
     "name": "",
     "members": [
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181129165138268.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20181129165138268.jpg",
         "team_category": "特約醫師",
         "name": "丁燿宗 主治醫師",
         "en_name": "D, LMCHK, FACC",
@@ -302,7 +302,7 @@
     "name": "",
     "members": [
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112213301.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112213301.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "藍耿欣 醫師",
         "en_name": "",
@@ -321,7 +321,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=555"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112230337.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112230337.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "王彥博 醫師",
         "en_name": "",
@@ -340,7 +340,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=373"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112246009.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112246009.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "王苑貞 醫師",
         "en_name": "",
@@ -359,7 +359,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=646"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112307454.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112307454.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "王盈文 醫師",
         "en_name": "",
@@ -378,7 +378,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=645"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112327933.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112327933.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "林崇棋 醫師",
         "en_name": "",
@@ -397,7 +397,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=647"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111955643.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111955643.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "林漢傑 醫師/教授",
         "en_name": "",
@@ -416,7 +416,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=542"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112015013.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112015013.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "羅景全 醫師",
         "en_name": "",
@@ -435,7 +435,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=553"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112028679.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112028679.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "侯明志 醫師/教授",
         "en_name": "",
@@ -454,7 +454,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=59"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112047507.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112047507.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "盧俊良 醫師/教授",
         "en_name": "",
@@ -473,7 +473,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=493"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112104527.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112104527.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "黃惠君 醫師/主任",
         "en_name": "",
@@ -492,7 +492,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=549"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112136137.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112136137.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "彭清霖 醫師",
         "en_name": "",
@@ -511,7 +511,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=550"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112156354.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313112156354.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "陳增興 醫師",
         "en_name": "",
@@ -530,7 +530,7 @@
         "url": "https://wd.vghtpe.gov.tw/gi/Teacher.action?tid=544"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20201104084439660.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20201104084439660.jpg",
         "team_category": "內視鏡施作醫師",
         "name": "張重昱 醫師",
         "en_name": "",
@@ -556,7 +556,7 @@
     "members": [
 
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111902071.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111902071.jpg",
         "team_category": "會診醫師",
         "name": "眼科部 醫師",
         "en_name": "",
@@ -575,7 +575,7 @@
         "url": "https://wd.vghtpe.gov.tw/oph/Index.action"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111914096.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111914096.jpg",
         "team_category": "會診醫師",
         "name": "口腔醫學部 醫師",
         "en_name": "",
@@ -594,7 +594,7 @@
         "url": "https://wd.vghtpe.gov.tw/dent/Index.action"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111925289.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111925289.jpg",
         "team_category": "會診醫師",
         "name": "耳鼻喉頭頸部 醫師",
         "en_name": "",
@@ -613,7 +613,7 @@
         "url": "https://wd.vghtpe.gov.tw/ent/Index.action"
       },
       {
-        "Column1": "http://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111942763.jpg",
+        "Column1": "https://phys.grp.com.tw/BackEnd/Assets/upload/images/team/20190313111942763.jpg",
         "team_category": "會診醫師",
         "name": "婦女醫學部 醫師",
         "en_name": "",
