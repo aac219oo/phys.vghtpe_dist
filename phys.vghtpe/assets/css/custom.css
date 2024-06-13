@@ -138,7 +138,7 @@ app-footer {
   }
   #navbarNav > *:last-child {
     margin-bottom: 80px;
-}
+  }
 
   #navbar-nav {
     align-items: start;
@@ -502,6 +502,10 @@ app-detail .yt-container {
   background-color: unset !important;
   border-bottom: 2px solid rgba(128, 128, 128, 0.473);
 }
+.mat-mdc-form-field:not(.mat-form-field-disabled)
+  .mat-mdc-floating-label.mdc-floating-label {
+  color: #000;
+}
 .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input {
   color: #000 !important;
 }
@@ -511,7 +515,18 @@ app-detail .yt-container {
 .mdc-text-field--filled.mdc-text-field--disabled .mdc-floating-label {
   color: #929292 !important;
 }
-.mat-datepicker-toggle-default-icon.ng-star-inserted {
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled):not(
+    .mdc-text-field--focused
+  ):hover
+  .mdc-floating-label,
+.mdc-text-field--filled:not(.mdc-text-field--disabled):not(
+    .mdc-text-field--focused
+  ):hover
+  .mdc-floating-label--float-above {
+    color: #000 !important;
+  }
+  .mat-datepicker-toggle-default-icon.ng-star-inserted {
   filter: invert(65%);
   margin-right: 4px;
 }

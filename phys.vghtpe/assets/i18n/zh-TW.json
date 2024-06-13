@@ -48,6 +48,9 @@
   "examination_items": {
     "examination_items": "健檢組套"
   },
+  "c01": {
+    "please_select_at_least_one_item_to_compare": "請至少選擇一項組套進行比較"
+  },
   "login": {
     "member_exclusive": "會員專屬",
     "past_appointments_and_risk_changes": "歷年預約及風險變化",
@@ -70,7 +73,14 @@
     "no_verification_code_received": "若沒有收到驗證碼。請稍後再試一次（",
     "verification_code": "驗證碼",
     "login": "登入",
-    "verification_code_error": "輸入的驗證碼錯誤。請再試一次。"
+    "verification_code_error": "輸入的驗證碼錯誤。請再試一次。",
+    "account_required": "需要填寫身份證號碼。",
+    "idendity_required": "需要選擇身份類型。",
+    "birthday_required": "需要填寫生日日期。",
+    "mobile_required": "需要填寫手機號碼或電子郵件。",
+    "email_required": "需要填寫手機號碼或電子郵件。",
+    "verificationCode_required": "需要填寫驗證碼。",
+    "verificationCode_not_sent": "尚未發送驗證碼。"
   },
   "contactLine": {
     "title": "官方LINE",

@@ -48,6 +48,9 @@
   "examination_items": {
     "examination_items": "健檢組套"
   },
+  "c01": {
+    "please_select_at_least_one_item_to_compare": "Please select at least one item to compare."
+  },
   "login": {
     "member_exclusive": "Member Exclusive",
     "past_appointments_and_risk_changes": "Past Appointments and Risk Changes",
@@ -62,7 +65,7 @@
     "send_otp": "Send OTP Verification Code for Login, Please Select Receiving Method",
     "mobile_verification": "Mobile Verification",
     "email_verification": "Email Verification",
-    "enter_mobile_number": "Enter Mobile Number",
+    "enter_mobile_number": "Enter Phone Number",
     "enter_email": "Enter Email",
     "send_verification_code": "Send Verification Code",
     "resend_verification_code": "Resend Verification Code in (",
@@ -70,7 +73,14 @@
     "no_verification_code_received": "If you did not receive the verification code, please try again later (",
     "verification_code": "Verification Code",
     "login": "Login",
-    "verification_code_error": "The verification code entered is incorrect. Please try again."
+    "verification_code_error": "The verification code entered is incorrect. Please try again.",
+    "account_required": "ID Number is required.",
+    "idendity_required": "Identity is required.",
+    "birthday_required": "Date of Birth is required.",
+    "mobile_required": "Either a phone number or an email is required.",
+    "email_required": "Either a phone number or an email is required.",
+    "verificationCode_required": "Verification code is required.",
+    "verificationCode_not_sent": "Verification code has not been sent yet."
   },
   "contactLine": {
     "title": "Official LINE",
