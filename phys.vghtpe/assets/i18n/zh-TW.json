@@ -73,6 +73,7 @@
     "no_verification_code_received": "若沒有收到驗證碼。請稍後再試一次（",
     "verification_code": "驗證碼",
     "login": "登入",
+    "signup": "註冊會員",
     "verification_code_error": "輸入的驗證碼錯誤，或是無法發送驗證碼。請再試一次。還是無法登入請",
     "account_required": "需要填寫身份證號碼。",
     "idendity_required": "需要選擇身份類型。",

@@ -73,6 +73,7 @@
     "no_verification_code_received": "If you did not receive the verification code, please try again later (",
     "verification_code": "Verification Code",
     "login": "Login",
+    "signup": "Sign Up",
     "verification_code_error": "The verification code entered is incorrect, or we are unable to send the verification code. Please try again. If you still can't log in, please",
     "account_required": "ID Number is required.",
     "idendity_required": "Identity is required.",
