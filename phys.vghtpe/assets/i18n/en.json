@@ -81,7 +81,7 @@
     "mobile_required": "A valid mobile number is required.",
     "email_required": "A valid email address is required.",
     "verificationCode_required": "Verification code is required.",
-    "verificationCode_not_sent": "Verification code has not been sent yet."
+    "verificationCode_not_sent": "Unable to send verification code to the device or email."
   },
   "contactLine": {
     "title": "Official LINE",

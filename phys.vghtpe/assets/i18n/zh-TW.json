@@ -81,7 +81,7 @@
     "mobile_required": "需填寫手機號碼或手機號碼錯誤。",
     "email_required": "需填寫電子郵件或電子郵件格式錯誤。",
     "verificationCode_required": "需要填寫驗證碼。",
-    "verificationCode_not_sent": "無法發送驗證碼。"
+    "verificationCode_not_sent": "無法寄送驗證碼給裝置或信箱"
   },
   "contactLine": {
     "title": "官方LINE",
