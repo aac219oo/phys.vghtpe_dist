@@ -73,7 +73,7 @@
     "no_verification_code_received": "若沒有收到驗證碼。請稍後再試一次（",
     "verification_code": "驗證碼",
     "login": "登入",
-    "verification_code_error": "輸入的驗證碼錯誤。請再試一次。",
+    "verification_code_error": "輸入的驗證碼錯誤。請再試一次。遇到問題？",
     "account_required": "需要填寫身份證號碼。",
     "idendity_required": "需要選擇身份類型。",
     "birthday_required": "需要填寫生日日期。",

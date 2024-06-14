@@ -28,10 +28,10 @@
     "risk_changes": "Risk changes"
   },
   "index": {
-    "personalized_risk_assessment": "個人化風險評估及健檢組套建議",
-    "examination_items": "健檢組套",
-    "online_reservation": "線上預約",
-    "official_line": "官方LINE"
+    "personalized_risk_assessment": "Personalized Risk Assessment",
+    "examination_items": "Examination items",
+    "online_reservation": "Online Reservation",
+    "official_line": "Official Line"
   },
   "info" : {
     "our_features":"Our features",
@@ -43,10 +43,10 @@
     "environment" : "Environment"
   },
   "team": {
-    "service_team": "服務團隊"
+    "service_team": "Service team"
   },
   "examination_items": {
-    "examination_items": "健檢組套"
+    "examination_items": "Examination items"
   },
   "c01": {
     "please_select_at_least_one_item_to_compare": "Please select at least one item to compare."
@@ -73,7 +73,7 @@
     "no_verification_code_received": "If you did not receive the verification code, please try again later (",
     "verification_code": "Verification Code",
     "login": "Login",
-    "verification_code_error": "The verification code entered is incorrect. Please try again.",
+    "verification_code_error": "The verification code entered is incorrect. Please try again. Having problems?",
     "account_required": "ID Number is required.",
     "idendity_required": "Identity is required.",
     "birthday_required": "Date of Birth is required.",
