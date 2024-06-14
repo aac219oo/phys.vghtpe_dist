@@ -73,14 +73,14 @@
     "no_verification_code_received": "若沒有收到驗證碼。請稍後再試一次（",
     "verification_code": "驗證碼",
     "login": "登入",
-    "verification_code_error": "輸入的驗證碼錯誤。請再試一次。遇到問題？",
+    "verification_code_error": "輸入的驗證碼錯誤，或是無法發送驗證碼。請再試一次。還是無法登入請",
     "account_required": "需要填寫身份證號碼。",
     "idendity_required": "需要選擇身份類型。",
     "birthday_required": "需要填寫生日日期。",
-    "mobile_required": "需要填寫手機號碼或電子郵件。",
-    "email_required": "需要填寫手機號碼或電子郵件。",
+    "mobile_required": "需填寫手機號碼或手機號碼錯誤。",
+    "email_required": "需填寫電子郵件或電子郵件格式錯誤。",
     "verificationCode_required": "需要填寫驗證碼。",
-    "verificationCode_not_sent": "尚未發送驗證碼。"
+    "verificationCode_not_sent": "無法發送驗證碼。"
   },
   "contactLine": {
     "title": "官方LINE",
